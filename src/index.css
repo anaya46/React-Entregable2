@@ -13,7 +13,7 @@ body{
 
 
 .card{
-  width: 30vw;
+  width: 50vw;
   height: 100vh;
   padding: 1rem 2 rem 2 rem 1rem;
   margin-top: auto ;
@@ -34,6 +34,7 @@ margin-bottom: 0;
 
 
 button{
+  width: 150px;
   border-radius: 12px;
   border: none;
   font-family: 'Roboto', sans-serif;
@@ -58,19 +59,27 @@ button{
   color: #5E548E;
 }
 .iconTemp{
-  width: 150px;
+  width: 250px;
+  height: 200px;
   padding: 0;
   margin-bottom: 0;
   margin-top: 0;
   }
+.description-weather{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
 .description{
   padding: 0;
   margin-top: 0;
+  font-size: 1.5rem;
   
 }
 .feel{
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
  justify-content: center;
  font-weight: bold;
  color: #5E548E;
@@ -81,7 +90,7 @@ button{
 }
 .humidity{
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   justify-content: center;
   font-weight: bold;
   color: #5E548E;
